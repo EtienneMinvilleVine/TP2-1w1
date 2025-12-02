@@ -10,4 +10,4 @@
 - Cours
 - Département: TIM
 - Collège de Maisonneuve
-- Github-page: https://etienneminvillevine.github.io/TP2-1w1/
+- Github-page: https://github.com/EtienneMinvilleVine/TP2-1w1

@@ -1,0 +1,98 @@
+
+*{ 
+box-sizing:border-box;
+
+}
+html{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////Général////////////////////*/
+/* Les sélecteurs généraux ont un impact sur chacune des sections de la page////////////////////////////*/
+body{
+margin: 0;
+padding: 0;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+/*/////////////////////////////////////////////////////////////////////////// .menu /////////////////////*/
+
+section, header, footer{
+
+    min-height: 100vh;
+
+}
+
+.centre{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0.266);
+    padding: 30px;
+}
+/*/////////////////////////////////////////////////////////////////////////Couleurs d'arrière plan de chacune des sections*/
+
+.conteneur:nth-of-type(1){
+    background-color: rgb(50, 186, 29);
+}
+.conteneur:nth-of-type(2){
+    background-color: rgb(41, 137, 178);
+}
+
+.conteneur:nth-of-type(3){
+    background-color: rgb(149, 26, 135);
+}
+
+.conteneur:nth-of-type(4){
+    background-color: rgb(225, 120, 22);
+}
+
+.conteneur:nth-of-type(5){
+    background-color: rgb(17, 112, 126);
+}
+
+.conteneur:nth-of-type(6){
+    background-color: rgb(197, 182, 43);
+}
+.conteneur:nth-of-type(7){
+    background-color: rgb(36, 170, 96);
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////.hero */
+
+.hero {
+    background-image: url("../images/chat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__bouton{
+    display: block;
+    padding: 10px;
+    background: linear-gradient(180deg, green, teal, blue);
+    width: 200px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hero__bouton:hover {
+    background: red;
+    background: linear-gradient(red, orange, yellow);
+}

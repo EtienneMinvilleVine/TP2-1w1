@@ -1,0 +1,32 @@
+.menu{
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: 400px;
+}
+
+.menu__a{ /*Représente l'entièreté du menu*/
+
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid#aaa;
+}
+
+.menu__a:link{
+    color: darkgray;
+    padding: 2px, 5px;
+    font-size: 2rem;
+    background-color: rgb(72, 124, 169);
+}
+.menu__a:visited{
+    color: #aaa;
+    background-color: rgb(56, 204, 209);
+}
+.menu__a:hover{
+    color: #9ad405;
+    background-color: rgb(7, 52, 111);
+}
+.menu__a:active{
+    color: #ec1111;
+    background-color: rgb(76, 135, 29);
+}

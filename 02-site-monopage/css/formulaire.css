@@ -1,0 +1,28 @@
+.formulaire{
+    border: 1px solid #aaa;
+}
+
+.formulaire__label{
+    margin: 20px 0;
+   
+}
+
+
+.formulaire__input{
+
+}
+
+.formulaire__div{
+     margin: 20px 0;
+}
+
+.formulaire__rad{
+    margin: 0 30px 0 5px;
+}
+
+.formulaire__submit{
+    margin: 20 0;
+}
+
+/*////////////////////INFO CSS ET PARTIE INDEX A METTRE DANS 02 MONOPAGE ////////////////////////*/
+
